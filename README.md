@@ -1,70 +1,136 @@
-# Getting Started with Create React App
+# Little Lemon Restaurant - Capstone Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive web application for Little Lemon Restaurant featuring online table reservations and ordering capabilities. This is the capstone project for Meta's Front-End Developer Professional Certificate on Coursera.
 
-## Available Scripts
+## About Little Lemon
 
-In the project directory, you can run:
+**Little Lemon** is a family-owned Mediterranean restaurant located in Chicago, Illinois, blending traditional recipes with a modern twist.
 
-### `npm start`
+### The Business
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Owners:** Two Italian brothers
+  - **Mario:** Head chef who relies on family recipes and his experience as a chef in Italy
+  - **Adrian:** Handles marketing and led the expansion to incorporate broader Mediterranean cuisines
+- **Cuisine:** Mediterranean (Italian, Greek, Turkish influences)
+- **Menu:** 12-15 seasonal items featuring traditional recipes with a modern twist
+- **Atmosphere:** Rustic and relaxed with moderate prices
+- **Operating Hours:**
+  - Monday - Friday: 2pm - 10pm
+  - Saturday: 2pm - 11pm
+  - Sunday: 2pm - 9pm
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### The Challenge
 
-### `npm test`
+Little Lemon currently has a basic website but lacks:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Modern, user-friendly UI/UX design
+- Online table reservation system
+- Online ordering functionality
+- Professional, responsive design that works across all devices
 
-### `npm run build`
+**Business Impact:** Without these features, Little Lemon is losing potential customers who expect modern online booking and ordering capabilities, and their staff spends too much time handling phone reservations.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Requirements
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Core Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Table Reservation System**
+   - Customers can select preferred date and time
+   - Choose party size
+   - View available time slots
+   - Enter contact information
+   - Submit reservations online
 
-### `npm run eject`
+2. **Online Ordering System**
+   - Browse menu items and specials
+   - Add items to cart
+   - Place orders online
+   - View order history
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Restaurant Information Pages**
+   - About the restaurant
+   - Menu and specials
+   - Customer testimonials
+   - Contact information
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Modern UI/UX Design**
+   - Clean, professional design
+   - Fully responsive (mobile, tablet, desktop)
+   - Accessible for all users
+   - Intuitive navigation
+   - Consistent branding
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **React** - Frontend framework
+- **HTML5** - Semantic markup
+- **CSS3** - Styling and responsive design
+- **Tailwind CSS** - Utility-first CSS framework
+- **React Hooks** - State management and side effects
+- **JavaScript (ES6+)** - Modern JavaScript features
 
-## Learn More
+## Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Node.js (v14 or higher)
+- npm or yarn package manager
 
-### Code Splitting
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clone the repository:
 
-### Analyzing the Bundle Size
+```bash
+git clone <repository-url>
+cd meta-final-capstone
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. Install dependencies:
 
-### Making a Progressive Web App
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. Start the development server:
 
-### Advanced Configuration
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The app will open at [http://localhost:3000](http://localhost:3000)
 
-### Deployment
+### Available Scripts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- `npm start` - Runs the app in development mode
+- `npm test` - Launches the test runner
+- `npm run build` - Builds the app for production
+- `npm run eject` - Ejects from Create React App (one-way operation)
 
-### `npm run build` fails to minify
+## Project Goals
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This capstone project demonstrates:
+
+- Modern React development practices
+- Responsive web design principles
+- User-centered design approach
+- Accessibility best practices
+- Professional front-end development skills
+
+## Business Value
+
+**For Little Lemon:**
+
+- Increased reservations through easier online booking
+- Additional revenue stream via online ordering
+- Reduced phone workload for staff
+- Enhanced professional image and brand presence
+
+**For Customers:**
+
+- 24/7 booking availability
+- Convenient online ordering
+- Better user experience with modern, intuitive interface
+
+## License
+
+This project is part of Meta's Front-End Developer Professional Certificate program on Coursera.
