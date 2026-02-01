@@ -21,116 +21,65 @@ A modern, responsive web application for Little Lemon Restaurant featuring onlin
 
 ### The Challenge
 
-Little Lemon currently has a basic website but lacks:
+Little Lemon currently has a basic website but lacks modern online booking and ordering capabilities. This project will build a complete web application with:
 
-- Modern, user-friendly UI/UX design
-- Online table reservation system
-- Online ordering functionality
-- Professional, responsive design that works across all devices
+- **Table Reservation System** - Online booking with date/time selection
+- **Online Ordering** - Browse menu, add to cart, place orders
+- **Restaurant Pages** - About, menu, testimonials, contact
+- **Modern UI/UX** - Responsive, accessible, professional design
 
-**Business Impact:** Without these features, Little Lemon is losing potential customers who expect modern online booking and ordering capabilities, and their staff spends too much time handling phone reservations.
+## Design System
 
-## Project Requirements
+See [DESIGN_SYSTEM.md](./DESIGN_SYSTEM.md) for complete design system including colors, typography, spacing, and component guidelines.
 
-### Core Features
+### Quick Reference
 
-1. **Table Reservation System**
-   - Customers can select preferred date and time
-   - Choose party size
-   - View available time slots
-   - Enter contact information
-   - Submit reservations online
+**Colors:**
 
-2. **Online Ordering System**
-   - Browse menu items and specials
-   - Add items to cart
-   - Place orders online
-   - View order history
+- Primary Green: `#495E57`
+- Primary Yellow: `#F4CE14`
+- Secondary Orange: `#EE9972`
+- Secondary Beige: `#FBDABB`
+- Highlight Light: `#EDEFEE`
+- Highlight Dark: `#333333`
 
-3. **Restaurant Information Pages**
-   - About the restaurant
-   - Menu and specials
-   - Customer testimonials
-   - Contact information
+**Typography:**
 
-4. **Modern UI/UX Design**
-   - Clean, professional design
-   - Fully responsive (mobile, tablet, desktop)
-   - Accessible for all users
-   - Intuitive navigation
-   - Consistent branding
+- Headings: `Markazi Text` (Google Fonts)
+- Body: `Karla` (Google Fonts)
 
-## Technologies Used
+**Breakpoints:**
+
+- Mobile: < 768px
+- Tablet: 768px - 1024px
+- Desktop: > 1024px
+
+## Technologies
 
 - **React** - Frontend framework
-- **HTML5** - Semantic markup
-- **CSS3** - Styling and responsive design
-- **Tailwind CSS** - Utility-first CSS framework
-- **React Hooks** - State management and side effects
-- **JavaScript (ES6+)** - Modern JavaScript features
+- **Tailwind CSS** - Styling
+- **React Hooks** - State management
 
 ## Getting Started
 
-### Prerequisites
-
-- Node.js (v14 or higher)
-- npm or yarn package manager
-
-### Installation
-
-1. Clone the repository:
-
-```bash
-git clone <repository-url>
-cd meta-final-capstone
-```
-
-2. Install dependencies:
-
 ```bash
 npm install
-```
-
-3. Start the development server:
-
-```bash
 npm start
 ```
 
-The app will open at [http://localhost:3000](http://localhost:3000)
+App runs at [http://localhost:3000](http://localhost:3000)
 
-### Available Scripts
+## Project Structure
 
-- `npm start` - Runs the app in development mode
-- `npm test` - Launches the test runner
-- `npm run build` - Builds the app for production
-- `npm run eject` - Ejects from Create React App (one-way operation)
+```
+src/
+├── components/     # Reusable components
+├── pages/          # Page components
+├── hooks/          # Custom hooks
+└── styles/         # CSS/Tailwind styles
+```
 
-## Project Goals
+## References
 
-This capstone project demonstrates:
-
-- Modern React development practices
-- Responsive web design principles
-- User-centered design approach
-- Accessibility best practices
-- Professional front-end development skills
-
-## Business Value
-
-**For Little Lemon:**
-
-- Increased reservations through easier online booking
-- Additional revenue stream via online ordering
-- Reduced phone workload for staff
-- Enhanced professional image and brand presence
-
-**For Customers:**
-
-- 24/7 booking availability
-- Convenient online ordering
-- Better user experience with modern, intuitive interface
-
-## License
-
-This project is part of Meta's Front-End Developer Professional Certificate program on Coursera.
+- [Meta Capstone Course](https://www.coursera.org/learn/meta-front-end-developer-capstone)
+- [Little Lemon Figma Design](https://www.figma.com/community/file/1390322027406537062/meta-front-end-capstone-little-lemon-wireframe-mockup)
