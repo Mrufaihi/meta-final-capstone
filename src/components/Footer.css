@@ -1,0 +1,47 @@
+footer {
+  background-color: var(--primary-green);
+  color: var(--text-light);
+  padding: 2rem;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.footer-logo .logo-text {
+  color: var(--primary-yellow);
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.footer-contact {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.contact-column h4 {
+  color: var(--primary-yellow);
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.contact-column p {
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .footer-content {
+    grid-template-columns: auto 1fr;
+  }
+
+  .footer-contact {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

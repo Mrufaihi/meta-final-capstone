@@ -1,0 +1,55 @@
+---
+description: Little Lemon project context and design system reference
+alwaysApply: true
+---
+
+# Little Lemon Capstone Project Context
+
+## Project Overview
+
+Little Lemon is a family-owned Mediterranean restaurant in Chicago. Building a modern web app with:
+
+- Table reservation system
+- Online ordering
+- Restaurant information pages (About, Menu, Contact)
+
+## Design System
+
+**Colors:**
+
+- Primary Green: `#495E57` (headers, navigation, primary buttons)
+- Primary Yellow: `#F4CE14` (CTAs, highlights)
+- Secondary Orange: `#EE9972`
+- Secondary Beige: `#FBDABB`
+- Highlight Light: `#EDEFEE`
+- Highlight Dark: `#333333`
+
+**Typography:**
+
+- Headings: `Markazi Text` (Google Fonts)
+- Body: `Karla` (Google Fonts)
+
+**Breakpoints:**
+
+- Mobile: < 768px
+- Tablet: 768px - 1024px
+- Desktop: > 1024px
+
+See `DESIGN_SYSTEM.md` for complete design system details.
+
+## Tech Stack
+
+- React with functional components and hooks
+- Tailwind CSS for styling
+- Mobile-first responsive design
+
+## Key Features
+
+1. **Reservation System** - Date/time selection, party size, contact info
+2. **Online Ordering** - Menu browsing, cart, checkout
+3. **Restaurant Pages** - About, menu display, testimonials, contact
+
+## References
+
+- [Figma Design](https://www.figma.com/community/file/1390322027406537062/meta-front-end-capstone-little-lemon-wireframe-mockup)
+- Design system: See `DESIGN_SYSTEM.md`
