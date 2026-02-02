@@ -5,13 +5,13 @@ function CallToAction() {
     <section className="call-to-action">
       <div className="cta-content">
         <div className="cta-text">
-          <h1>The Best Italian Food</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <button className="cta-button">Order</button>
+          <h1>Little Lemon</h1>
+          <p>Experience authentic Mediterranean cuisine in the heart of Chicago. Our family-owned restaurant blends traditional Italian, Greek, and Turkish recipes with a modern twist, creating unforgettable flavors that keep our guests coming back.</p>
+          <button className="cta-button">Order Online</button>
         </div>
         <div className="cta-image">
           <figure>
-            <img src="/lamp.png" alt="Italian food presentation" />
+            <img src="/restauranfood 1.png" alt="Italian food presentation" />
           </figure>
         </div>
       </div>

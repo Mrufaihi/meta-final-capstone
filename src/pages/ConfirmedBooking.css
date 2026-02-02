@@ -1,0 +1,25 @@
+.confirmed-booking {
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.confirmation-section {
+  background-color: var(--bg-light);
+  padding: 4rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 2rem 0;
+}
+
+.confirmed-booking h1 {
+  color: var(--primary-green);
+  margin-bottom: 1rem;
+}
+
+.confirmed-booking p {
+  color: var(--text-dark);
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}

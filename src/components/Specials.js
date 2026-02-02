@@ -2,9 +2,9 @@ import './Specials.css';
 
 function Specials() {
   const specials = [
-    { id: 1, title: 'Special Feature', image: '/lamp.png' },
-    { id: 2, title: 'Special Feature', image: '/lamp.png' },
-    { id: 3, title: 'Special Feature', image: '/lamp.png' }
+    { id: 1, title: 'Greek Salad', image: '/greek salad 1.png' },
+    { id: 2, title: 'Lemon Dessert', image: '/lemon dessert 1.png' },
+    { id: 3, title: 'Mediterranean Platter', image: '/restauranfood 1.png' }
   ];
 
   return (
