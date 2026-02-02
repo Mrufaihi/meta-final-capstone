@@ -1,4 +1,5 @@
 # Little Lemon Restaurant - Capstone Project
+![Uploading Screenshot 2026-02-02 at 3.51.59 PM.png…]()
 
 A modern, responsive web application for Little Lemon Restaurant featuring online table reservations and ordering capabilities. This is the capstone project for Meta's Front-End Developer Professional Certificate on Coursera.
 
