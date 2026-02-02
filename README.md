@@ -57,8 +57,11 @@ See [DESIGN_SYSTEM.md](./DESIGN_SYSTEM.md) for complete design system including 
 ## Technologies
 
 - **React** - Frontend framework
-- **Tailwind CSS** - Styling
-- **React Hooks** - State management
+- **React Router** - Client-side routing
+- **React Hooks** - State management (useState, useReducer)
+- **CSS** - Custom styling with CSS variables
+- **React Testing Library** - Unit testing
+- **Jest** - Test runner
 
 ## Getting Started
 
@@ -73,11 +76,34 @@ App runs at [http://localhost:3000](http://localhost:3000)
 
 ```
 src/
-├── components/     # Reusable components
-├── pages/          # Page components
-├── hooks/          # Custom hooks
-└── styles/         # CSS/Tailwind styles
+├── components/     # Reusable components (Nav, Footer, BookingForm, etc.)
+├── pages/          # Page components (HomePage, BookingPage, MenuPage, etc.)
+└── App.js          # Main app with routing and state management
+
+public/
+├── api.js          # Booking API functions
+└── images/         # Restaurant images
 ```
+
+## Features
+
+### ✅ Completed Features
+
+- **Table Reservation System** - Full booking form with date/time selection
+- **State Management** - useReducer for shared booking state
+- **API Integration** - Connected to booking API for available times
+- **Form Validation** - HTML5 + React validation with error handling
+- **Unit Tests** - Comprehensive test coverage
+- **Additional Pages** - About, Menu, and Order pages
+- **Real Content** - All placeholder text replaced with realistic content
+- **Responsive Design** - Mobile-first responsive layouts
+- **Accessibility** - ARIA attributes and semantic HTML
+
+## Documentation
+
+- [Stage 2 Implementation](./STAGE_2_IMPLEMENTATION.md) - UI & Semantic Structure
+- [Stage 3 Implementation](./STAGE_3_IMPLEMENTATION.md) - Booking System & Functionality
+- [Design System](./DESIGN_SYSTEM.md) - Complete design guidelines
 
 ## References
 

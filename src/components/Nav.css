@@ -11,6 +11,18 @@ nav {
   margin: 0 auto;
 }
 
+.nav-logo {
+  display: flex;
+  flex-direction: row;
+
+  /* align-items: center;
+  gap: 0.5rem; */
+}
+.nav-logo img {
+  /* height: 3rem; */
+  filter: brightness(0) saturate(100%) invert(84%) sepia(95%) saturate(1352%)
+    hue-rotate(1deg) brightness(105%) contrast(101%); /* Makes it yellow (#F4CE14) */
+}
 .nav-logo .logo-text {
   color: var(--primary-yellow);
   font-size: 1.5rem;

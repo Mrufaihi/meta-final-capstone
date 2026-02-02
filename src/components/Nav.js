@@ -5,8 +5,11 @@ function Nav() {
   return (
     <header>
       <nav>
+        {/* i want this horizontal */}
         <div className="nav-logo">
-          <h1 className="logo-text">Little Lemon</h1>
+          {/* suc= public/Logo 4.svg */}
+          <img src='/Logo 4.svg'></img>
+          {/* <h1 className="logo-text">Little Lemon</h1> */}
         </div>
         <ul className="nav-links">
           <li><Link to="/">Home</Link></li>
